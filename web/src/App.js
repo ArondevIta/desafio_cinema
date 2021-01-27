@@ -1,7 +1,13 @@
 import Search from "./components/Search";
+import Menu from "./pages/Menu";
 
 function App() {
-  return <><Search /></>;
+  return (
+    <>
+      <Menu />
+      <Search />
+    </>
+  );
 }
 
 export default App;

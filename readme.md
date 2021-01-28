@@ -17,7 +17,7 @@ Cinema App foi criado com o propósito das pessoas poderem pesquisar por filmes 
 primeiro crie uma pasta onde preferir e clone o projeto:
 
 ```
-git clone https://github.com/sthima/dev-cinemapp.git
+git clone https://github.com/ArondevIta/desafio_cinema.git
 ```
 
 após clonar o projeto vamos precisar iniciar o backend:

@@ -40,11 +40,12 @@
   color: #ffffff;
 }
 
-.star-icon {
+.star-icon-home {
   float: right;
+  color: #ffffff;
 }
 
-.star-icon:hover {
+.star-icon-home:hover {
   cursor: pointer;
   color: #daa520;
 }

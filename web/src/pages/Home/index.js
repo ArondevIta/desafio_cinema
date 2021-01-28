@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Form, Container, Col, Row, Card, Toast } from "react-bootstrap";
-import { FaSearch, FaStar } from "react-icons/fa";
+import { Form, Container, Col, Row, Toast } from "react-bootstrap";
+import { FaSearch } from "react-icons/fa";
 import api from "../../services/api";
 
 import CardMovies from "../../components/CardMovies";
@@ -16,7 +16,7 @@ function Search() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    const response = await api.get(`/search?title=${title}`);
+    const response = await api.get(`/search?t=${title}`);
     setMovies(response.data);
   }
 
@@ -50,7 +50,7 @@ function Search() {
           </Toast.Header>
           <Toast.Body>Filme adicionado aos favoritos!</Toast.Body>
         </Toast>
-        <CardMovies movies={movies} />
+        <CardMovies movies={movies} toggleShowA={toggleShowA} />
       </Container>
     </div>
   );

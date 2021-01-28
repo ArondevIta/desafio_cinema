@@ -3,3 +3,12 @@ h3 {
   color: #ffffff;
   text-align: center;
 }
+
+.star-icon-favorites {
+  float: right;
+  color: #daa520;
+}
+
+.star-icon-favorites:hover {
+  color: #ffffff;
+}

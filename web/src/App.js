@@ -1,11 +1,14 @@
-import Search from "./components/Search";
-import Menu from "./pages/Menu";
+import Routes from "./routes";
+
+import Menu from "./components/Menu";
+
+import "./global.css";
 
 function App() {
   return (
     <>
       <Menu />
-      <Search />
+      <Routes />
     </>
   );
 }

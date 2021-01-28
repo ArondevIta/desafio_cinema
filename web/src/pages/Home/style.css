@@ -1,0 +1,54 @@
+.content {
+  display: flex;
+}
+
+.block-search {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 540px;
+}
+
+.input-search {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #111;
+  border-radius: 50px;
+  height: 45px;
+}
+
+.search-icon {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.search-icon:hover {
+  color: #daa520;
+  cursor: pointer;
+}
+
+.block-movies {
+  margin-top: 40px;
+}
+
+.card-movie {
+  width: 20rem;
+  margin: 15px;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.star-icon {
+  float: right;
+}
+
+.star-icon:hover {
+  cursor: pointer;
+  color: #daa520;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}

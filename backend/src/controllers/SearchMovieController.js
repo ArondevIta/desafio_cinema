@@ -6,6 +6,11 @@ module.exports = {
     const response = await axios.get(
       `http://www.omdbapi.com/?apikey=925eba28&s=${title}`
     );
-    return res.json(response.data);
+
+    const newData = response.data.Search.map(
+      ({ Title, Year, imdbID, Type, Poster }) => {}
+    );
+
+    return res.json(newData);
   },
 };
